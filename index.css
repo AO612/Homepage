@@ -20,22 +20,24 @@ a {
     color: white;
 }
 
-.header
+.row
+{
+    display: flex;
+    padding: 0px 120px;
+    height: 192px;
+}
+
+#header
 {
     height: 64px;
-    display: flex;
     background: #1F2937;
     align-items: center;
-    padding: 0px 120px;
     gap: 20px;
 }
 
-.row_one
+#row_one
 {
-    display: flex;
     background: #1F2937;
-    height: 192px;
-    padding: 0px 120px;
 }
 
 .header_logo
@@ -45,31 +47,22 @@ a {
     font-size: 24px;
 }
 
-.row_two
+#row_two
 {
-    display: flex;
     background: white;
     color: black;
-    height: 192px;
-    padding: 0px 120px;
 }
 
-.row_three
+#row_three
 {
-    display: flex;
     background: #E5E7EB;
     color: black;
-    height: 192px;
-    padding: 0px 120px;
 }
 
-.row_four
+#row_four
 {
-    display: flex;
     background: white;
     color: black;
-    height: 192px;
-    padding: 0px 120px;
 }
 
 .sign_up_box
@@ -78,11 +71,9 @@ a {
     background: #3882F6;
 }
 
-.footer
+#footer
 {
     height: 64px;
-    display: flex;
     background: #1F2937;
-    padding: 0px 120px;
 }
 
