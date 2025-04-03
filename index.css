@@ -1,5 +1,5 @@
 html {
-    background-color: #1F2937;
+    background-color: black;
     color: white;
 }
 
@@ -17,27 +17,25 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 .row
 {
     display: flex;
-    padding: 0px 120px;
-    height: 192px;
+    padding: 0px 200px;
+    height: 500px;
+}
+
+#header, #footer
+{
+    height: 100px;
+    background: #1F2937;
 }
 
 #header
 {
-    height: 64px;
-    background: #1F2937;
-    align-items: center;
+    padding: 20px 200px;
     gap: 20px;
-}
-
-#row_one
-{
-    background: #1F2937;
 }
 
 .header_logo
@@ -47,10 +45,111 @@ a {
     font-size: 24px;
 }
 
+.header_link a
+{
+    color: #E5E7EB;
+}
+
+#row_one
+{
+    background: #1F2937;
+    display: flex;
+    height: 400px;
+}
+
+.paragraph_block
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+
+.paragraph_title
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.paragraph_text
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign_up_button
+{
+    background-color: #3882F6;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.large_image
+{
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
 #row_two
 {
     background: white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.information_title
+{
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images
+{
+    display: flex;
+    gap: 40px;
+}
+
+.pair
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.square_image
+{
+    background-color: white;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 25px;
+    border-width: thick;
+    width: 150px;
+    height: 150px;
+
+}
+
+.subtext
+{
+    width: 170gpx;
+    text-align: center;
 }
 
 #row_three
@@ -73,7 +172,8 @@ a {
 
 #footer
 {
-    height: 64px;
-    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
