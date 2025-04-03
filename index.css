@@ -22,19 +22,21 @@ a {
 .row
 {
     display: flex;
-    padding: 0px 200px;
-    height: 500px;
+    flex-basis: 500px;
+    padding: 0px 15%;
+    box-sizing: border-box;
 }
 
 #header, #footer
 {
-    height: 100px;
+    flex-basis: 100px;
     background: #1F2937;
 }
 
 #header
 {
-    padding: 20px 200px;
+    box-sizing: border-box;
+    padding-top: 20px;
     gap: 20px;
 }
 
@@ -54,7 +56,7 @@ a {
 {
     background: #1F2937;
     display: flex;
-    height: 400px;
+    flex-basis: 400px;
 }
 
 .paragraph_block
@@ -64,7 +66,6 @@ a {
     gap: 20px;
     flex: 1;
 }
-
 
 .paragraph_title
 {
@@ -98,7 +99,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
 }
 
 #row_two
@@ -123,6 +123,17 @@ a {
 {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.two_pair
+{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .pair
@@ -148,7 +159,7 @@ a {
 
 .subtext
 {
-    width: 170gpx;
+    width: 150px;
     text-align: center;
 }
 
@@ -156,6 +167,25 @@ a {
 {
     background: #E5E7EB;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25%;
+}
+
+.quote
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter
+{
+    color: black;
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
 }
 
 #row_four
