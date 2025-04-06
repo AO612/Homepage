@@ -22,7 +22,7 @@ a {
 .row
 {
     display: flex;
-    flex-basis: 500px;
+    flex-basis: 450px;
     padding: 0px 15%;
     box-sizing: border-box;
 }
@@ -57,6 +57,7 @@ a {
     background: #1F2937;
     display: flex;
     flex-basis: 400px;
+    gap: 10px;
 }
 
 .paragraph_block
@@ -64,7 +65,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 1;
+    flex-basis: 100%
 }
 
 .paragraph_title
@@ -99,6 +100,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 100%
 }
 
 #row_two
@@ -125,6 +127,7 @@ a {
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .two_pair
@@ -192,12 +195,47 @@ a {
 {
     background: white;
     color: black;
+    flex-basis: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign_up_box
 {
     display: flex;
     background: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    flex-basis: 100%;
+    border-radius: 25px;
+    color: #F9FAF8;
+    justify-content: space-around;
+}
+
+.sign_up_text_column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_up_title
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign_up_text
+{
+    color: #E5E7EB;
+}
+
+#white_border
+{
+    border-color: white;
+    border-style: solid;
 }
 
 #footer
